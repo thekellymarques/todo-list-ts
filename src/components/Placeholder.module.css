@@ -1,0 +1,27 @@
+.emptyTaskList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+
+  width: 736px;
+  height: 244px;
+}
+.clipboardImg {
+  color: var(--gray-400);
+  padding: 0 0 4px 0;
+}
+
+.p1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--gray-300);
+}
+.p2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-300);
+}

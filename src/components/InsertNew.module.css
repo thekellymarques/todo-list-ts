@@ -1,0 +1,46 @@
+.newTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 3px;
+
+  width: 736px;
+  height: 54px;
+}
+.input {
+  flex-grow: 1;
+
+  padding: 16px;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+.input:focus {
+  outline: 1px solid var(--purple);
+}
+.createButton {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  background: var(--darkBlue);
+  border-radius: 8px;
+  border: 0;
+
+  color: var(--gray-100);
+}
+.createButton:hover {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  background: var(--blue);
+  border-radius: 8px;
+  border: 0;
+
+  color: var(--gray-100);
+}

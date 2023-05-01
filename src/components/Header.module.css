@@ -1,0 +1,23 @@
+.header {
+  background: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 0 5rem;
+}
+.header img {
+  size: 22px;
+  padding: 0 12px;
+}
+.todoTo {
+  color: var(--blue);
+  font-family: "inter";
+  font-weight: 900;
+  font-size: 40px;
+}
+.todoDo {
+  color: var(--purple);
+  font-family: "inter";
+  font-weight: 900;
+  font-size: 40px;
+}

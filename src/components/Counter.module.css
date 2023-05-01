@@ -1,0 +1,50 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 74px;
+  height: 19px;
+
+  align-self: stretch;
+}
+
+.countCreatedTasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--blue);
+  font-weight: bold;
+}
+.countDoneTasks {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  color: var(--purple);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-weight: bold;
+}
+
+.info span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  background: #333333;
+  border-radius: 999px;
+
+  color: var(--gray-100);
+  font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.todoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 736px;
+  height: 451px;
+  left: calc(50% - 736px / 2);
+  margin-top: calc(0px - 1.5rem - 6px);
+}

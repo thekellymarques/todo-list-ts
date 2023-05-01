@@ -1,0 +1,92 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+  width: 736px;
+  height: 72px;
+
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  color: var(--gray-100);
+  font-size: 400;
+}
+.taskComplete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+  width: 736px;
+  height: 72px;
+
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+  font-size: 400;
+}
+.task:nth-last-child(1) {
+  margin-bottom: 50px;
+}
+
+.deleteButton {
+  border-radius: 4px;
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+}
+.deleteButton:hover {
+  color: var(--danger);
+}
+.checkButton {
+  background: transparent;
+  border-radius: 100%;
+
+  border: 0;
+  color: var(--blue);
+  cursor: pointer;
+}
+.checkButton:hover {
+  border: 0;
+  color: var(--darkBlue);
+  cursor: pointer;
+}
+.circle {
+  background: transparent;
+
+  border: 0;
+  color: var(--darkBlue);
+  cursor: pointer;
+  opacity: 0.9;
+}
+.circle:hover {
+  opacity: 0.9;
+}
+.checkButtonComplete {
+  background: transparent;
+  border: 0;
+  color: var(--darkPurple);
+}
+.checkButtonComplete:hover {
+  background: transparent;
+  border: 0;
+  color: var(--purple);
+}
+.checkButtonComplete circle {
+  cursor: pointer;
+}
+
+.checkButtonComplete polyline {
+  color: var(--White);
+}
