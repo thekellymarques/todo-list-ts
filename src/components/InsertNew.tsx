@@ -25,13 +25,13 @@ export function InsertNew({ onSubmit }: InsertNewProps) {
       <input
         className={styles.input}
         onChange={handleNewTaskChange}
-        placeholder="Adicione uma nova tarefa"
+        placeholder="Add a new task"
         value={newTask}
         required
       ></input>
 
-      <button className={styles.createButton} title="Criar tarefa">
-        <p className={styles.newTaskPlaceholder}>Criar</p>
+      <button className={styles.createButton} title="Create task">
+        <p className={styles.newTaskPlaceholder}>Create</p>
         <PlusCircle size={16} weight="bold" />
       </button>
     </form>

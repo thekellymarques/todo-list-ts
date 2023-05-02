@@ -13,8 +13,8 @@ export function Placeholder({show}: PlaceholderProps) {
         <div className={styles.clipboardImg}>
           <ClipboardText size={60} weight="light" />
         </div>
-        <p className={styles.p1}>Você ainda não tem tarefas cadastradas</p>
-        <p className={styles.p2}>Crie tarefas e organize seus itens a fazer </p>
+        <p className={styles.p1}>You don't have any tasks registered yet</p>
+        <p className={styles.p2}>Create tasks and organize your to-do items</p>
       </div>
     );
   }

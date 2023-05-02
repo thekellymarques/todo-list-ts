@@ -4,13 +4,13 @@ export function Counter({ completedCount, totalCount }: {completedCount:number, 
   return (
     <div className={styles.info}>
       <div className={styles.countCreatedTasks}>
-        Tarefas criadas <span>{totalCount}</span>
+        Tasks to do <span>{totalCount}</span>
       </div>
 
       <div className={styles.countDoneTasks}>
-        Concluídas
+        Completed today
         <span>
-          {completedCount} de {totalCount}
+          {completedCount} out of {totalCount}
         </span>
       </div>
     </div>
