@@ -26,7 +26,7 @@ export function Task({ task, onDelete, onComplete }: TaskProps) {
     <div className={task.isComplete ? styles.taskComplete : styles.task}>
       <button
         className={task.isComplete ? styles.checkButtonComplete : styles.checkButton}
-        title="Check the task"
+        title="Toggle task completion"
         onClick={handleComplete}
       >
         <div>{task.isComplete}</div>
